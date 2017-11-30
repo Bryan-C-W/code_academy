@@ -1,0 +1,27 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background: rgb(179, 2, 2);
+    border: 2px solid rgb(0, 0, 0);
+}
+.navlink {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.navlink:last-child {
+    border-bottom: none;
+}
+.navlink a {
+    display: block;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.navlink a:hover:not(.active) {
+    background: red;
+    color: rgb(255, 255, 255);
+}
+.active {
+    background: rgb(51, 39, 39);
+    color: rgb(255, 0, 0);
+}
