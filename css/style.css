@@ -24,13 +24,10 @@
     padding: 14px 16px;
 }
 .navlink a:hover:not(.active) {
-    background: red;
+    background: rgb(255, 0, 0);
     color: rgb(255, 255, 255);
 }
 .active {
-    background: rgb(105, 3, 3);
+    background: rgb(187, 0, 0);
     color: rgb(0, 0, 0);
-}
-@media screen and (max-width: 600px){
-    .navlink {float: none;}
 }
