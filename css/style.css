@@ -5,29 +5,63 @@
 }
 .navbar {
     list-style-type: none;
-    margin: 0;
+    margin-top: -250px;
     padding: 0;
     width: 100%;
-    background: rgb(160, 0, 0);
+    background: rgb(0, 0, 0);
     border: 2px solid rgb(0, 0, 0);
     overflow: hidden;
     position: fixed;
 }
 .navlink {
-    border-right: 2px solid rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(255, 255, 255);
     float: left;
+    margin-right: 5px;
 }
 .navlink a {
     display: block;
     text-decoration: none;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     padding: 14px 16px;
+    font-family:"Arial Black", Gadget, sans-serif;
 }
-.navlink a:hover:not(.active) {
-    background: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
+.navlink a:hover {
+    background: rgb(168, 14, 14);
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 1px #333333;
 }
 .active {
-    background: rgb(187, 0, 0);
-    color: rgb(0, 0, 0);
+    background: rgb(100, 100, 100);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(255, 255, 255);
+    float: left;
+    margin-right: 5px;
+}
+.active a {
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: rgb(255, 255, 255);
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+.hobbies {
+    margin-top: 250px;
+    margin-left: 75px;
+    width: 500px;
+    height: 150px;
+}
+#hobbytitle {
+    background: white;
+    border: 3px solid red;
+}
+#hobbiesp {
+    display: none;
+    border: 3px solid red;
+}
+.skills {
+    margin-top: 300px;
+    margin-left: 250px;
+
 }
