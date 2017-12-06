@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    background: lightgrey;
+}
 .navbar {
     list-style-type: none;
     margin-top: -250px;
@@ -28,12 +31,12 @@
     font-family:"Arial Black", Gadget, sans-serif;
 }
 .navlink a:hover {
-    background: rgb(168, 14, 14);
+    background: rgb(175, 175, 175);
     color: rgb(0, 0, 0);
     box-shadow: 2px 2px 1px #333333;
 }
 .active {
-    background: rgb(100, 100, 100);
+    background: rgb(63, 63, 63);
     border-right: 2px solid rgb(255, 255, 255);
     border-left: 2px solid rgb(255, 255, 255);
     float: left;
@@ -53,15 +56,29 @@
     height: 150px;
 }
 #hobbytitle {
-    background: white;
-    border: 3px solid red;
+    background: lightgray;
+    border: 10px solid transparent;
+    border-image: url(https://openclipart.org/download/81967/Old-style-border.svg) 30 round;
 }
 #hobbiesp {
     display: none;
-    border: 3px solid red;
+    border: 10px solid transparent;
+    border-image: url(https://openclipart.org/download/81967/Old-style-border.svg) 30 round;
+    width: 300px;
 }
 .skills {
-    margin-top: 300px;
+    margin-top: 30px;
     margin-left: 250px;
 
+}
+#skillstitle {
+    background: lightgray;
+    border: 10px solid transparent;
+    border-image: url(https://openclipart.org/download/81967/Old-style-border.svg) 30 round;    
+}
+#skillsp {
+    display: none;
+    border: 10px solid transparent;
+    border-image: url(https://openclipart.org/download/81967/Old-style-border.svg) 30 round;
+    width: 300px;
 }
