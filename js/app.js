@@ -17,4 +17,10 @@ $(document).ready(function () {
     $("#problemstitle").click(function(){
         $("#problemsp").toggle();
     })
+    $("#phonetitle").click(function(){
+        $("#phonenub").toggle();
+    })
+    $("#emailtitle").click(function(){
+        $("#emailaddress").toggle();
+    })
 })
