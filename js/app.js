@@ -5,4 +5,16 @@ $(document).ready(function () {
     $("#skillstitle").click(function(){
         $("#skillsp").toggle();
     })
+    $("#whotitle").click(function(){
+        $("#whop").toggle();
+    })
+    $("#whattitle").click(function(){
+        $("#whatp").toggle();
+    })
+    $("#funtitle").click(function(){
+        $("#funp").toggle();
+    })
+    $("#problemstitle").click(function(){
+        $("#problemsp").toggle();
+    })
 })

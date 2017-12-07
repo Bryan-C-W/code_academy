@@ -11,13 +11,13 @@ html {
     margin-top: -250px;
     padding: 0;
     width: 100%;
-    background: rgb(0, 0, 0);
+    background: rgb(129, 0, 0);
     border: 2px solid rgb(0, 0, 0);
     overflow: hidden;
     position: fixed;
 }
 .navlink {
-    background: rgb(0, 0, 0);
+    background: rgb(85, 0, 0);
     border-right: 2px solid rgb(255, 255, 255);
     border-left: 2px solid rgb(255, 255, 255);
     float: left;
@@ -31,12 +31,12 @@ html {
     font-family:"Arial Black", Gadget, sans-serif;
 }
 .navlink a:hover {
-    background: rgb(175, 175, 175);
+    background: rgb(255, 0, 0);
     color: rgb(0, 0, 0);
     box-shadow: 2px 2px 1px #333333;
 }
 .active {
-    background: rgb(63, 63, 63);
+    background: rgb(184, 0, 0);
     border-right: 2px solid rgb(255, 255, 255);
     border-left: 2px solid rgb(255, 255, 255);
     float: left;
@@ -56,29 +56,95 @@ html {
     height: 150px;
 }
 #hobbytitle {
-    background: lightgray;
+    background: rgb(184, 22, 22);
     border: 10px solid transparent;
-    border-image: url(https://openclipart.org/download/81967/Old-style-border.svg) 30 round;
+    border-image: url(../assets/Old-style-border.svg) 30 round;
 }
 #hobbiesp {
     display: none;
     border: 10px solid transparent;
-    border-image: url(https://openclipart.org/download/81967/Old-style-border.svg) 30 round;
+    border-image: url(../assets/Old-style-border.svg) 30 round;
     width: 300px;
+    background: rgb(155, 20, 20);
 }
 .skills {
     margin-top: 30px;
     margin-left: 250px;
-
 }
 #skillstitle {
-    background: lightgray;
+    background: rgb(184, 22, 22);
     border: 10px solid transparent;
-    border-image: url(https://openclipart.org/download/81967/Old-style-border.svg) 30 round;    
+    border-image: url(../assets/Old-style-border.svg) 30 round;    
 }
 #skillsp {
     display: none;
     border: 10px solid transparent;
-    border-image: url(https://openclipart.org/download/81967/Old-style-border.svg) 30 round;
+    border-image: url(../assets/Old-style-border.svg) 30 round;
     width: 300px;
+    background: rgb(155, 20, 20);
+}
+.what {
+    margin-top: 30px;
+    margin-left: 250px;
+}
+#whattitle {
+    background: rgb(184, 22, 22);
+    border: 10px solid transparent;
+    border-image: url(../assets/Old-style-border.svg) 30 round;    
+}
+#whatp {
+    display: none;
+    border: 10px solid transparent;
+    border-image: url(../assets/Old-style-border.svg) 30 round;
+    width: 300px;
+    background: rgb(155, 20, 20);
+}
+.who{
+    margin-top: 250px;
+    margin-left: 50px;
+}
+#whotitle {
+    background: rgb(184, 22, 22);
+    border: 10px solid transparent;
+    border-image: url(../assets/Old-style-border.svg) 30 round;    
+}
+#whop {
+    display: none;
+    border: 10px solid transparent;
+    border-image: url(../assets/Old-style-border.svg) 30 round;
+    width: 300px;
+    background: rgb(155, 20, 20);
+}
+.fun {    
+    margin-top: 20px;
+    margin-left: 340px;
+   
+}
+#funtitle {
+    background: rgb(184, 22, 22);
+    border: 10px solid transparent;
+    border-image: url(../assets/Old-style-border.svg) 30 round;    
+}
+#funp {
+    display: none;
+    border: 10px solid transparent;
+    border-image: url(../assets/Old-style-border.svg) 30 round;
+    width: 300px;
+    background: rgb(155, 20, 20);
+}
+.problems {
+    margin-top: 20px;
+    margin-left: 50px
+}
+#problemstitle {
+    background: rgb(184, 22, 22);
+    border: 10px solid transparent;
+    border-image: url(../assets/Old-style-border.svg) 30 round;    
+}
+#problemsp {
+    display: none;
+    border: 10px solid transparent;
+    border-image: url(../assets/Old-style-border.svg) 30 round;
+    width: 300px;
+    background: rgb(155, 20, 20);
 }
