@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#greeting {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+#textmain {
+    display: none;
+}
+#btnmain button{
+    background-color: #c9302c;
+    border-color: #c9302c;
+    border-radius: 5px;
+}
+#btnmain button:hover {
+    background-color: #881e1c;
+    border-color: #881e1c;
+    box-shadow: 2px 2px 1px #333333;
+}
+#skills{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: none;
+}
+#textskill {
+    display: none;
+}
+#btnskill button{
+    color: rgb(255, 255, 255);
+    background-color: #df2f2d;
+    border-color: #df2f2d;
+    border-radius: 5px;
+}
+#btnskill button:hover {
+    background-color: #bd2a27;
+    border-color: #bd2a27;
+    box-shadow: 2px 2px 1px #333333;
+}
+#hobbies{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: none;
+}
+#texthobbies {
+    display: none;
+}
+#btnhobbies button{
+    color: rgb(255, 255, 255);
+    background-color: #df2f2d;
+    border-color: #df2f2d;
+    border-radius: 5px;
+}
+#btnhobbies button:hover {
+    background-color: #bd2a27;
+    border-color: #bd2a27;
+    box-shadow: 2px 2px 1px #333333;
+}
+#contact{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: none;
+}
+#textcontact {
+    display: none;
+}
+#btncontact button{
+    color: rgb(255, 255, 255);
+    background-color: #df2f2d;
+    border-color: #df2f2d;    
+    border-radius: 5px;
+}
+#btncontact button:hover {
+    background-color: #bd2a27;
+    border-color: #bd2a27;
+    box-shadow: 2px 2px 1px #333333;
+}
+#slideshow {
+    margin: 20px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  #slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }

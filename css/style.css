@@ -185,7 +185,8 @@ html {
     border-radius: 5px;  
 }
 .email {
-    margin-left: 25px;
+    margin-left: 500px;
+    margin-top: -50px;
 }
 #emailtitle {
     background: rgb(184, 22, 22);

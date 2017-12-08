@@ -1,26 +1,17 @@
 $(document).ready(function () {
-    $("#hobbytitle").click(function(){
-        $("#hobbiesp").toggle();
+    $("#btnmain button").on("click", function(){
+        $("#textmain").toggle();
+        $("#skills").toggle();
+        $("#hobbies").toggle();
+        $("#contact").toggle();
     })
-    $("#skillstitle").click(function(){
-        $("#skillsp").toggle();
+    $("#btnskill button").click(function(){
+        $("#textskill").toggle();
     })
-    $("#whotitle").click(function(){
-        $("#whop").toggle();
+    $("#btnhobbies button").click(function(){
+        $("#texthobbies").toggle();
     })
-    $("#whattitle").click(function(){
-        $("#whatp").toggle();
-    })
-    $("#funtitle").click(function(){
-        $("#funp").toggle();
-    })
-    $("#problemstitle").click(function(){
-        $("#problemsp").toggle();
-    })
-    $("#phonetitle").click(function(){
-        $("#phonenub").toggle();
-    })
-    $("#emailtitle").click(function(){
-        $("#emailaddress").toggle();
+    $("#btncontact button").click(function(){
+        $("#textcontact").toggle();
     })
 })
